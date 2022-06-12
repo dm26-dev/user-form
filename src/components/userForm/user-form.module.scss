@@ -1,0 +1,10 @@
+.form {
+    width: 350px;
+
+    &>input[type=text],
+    select {
+        width: 100%;
+        margin: 5px 0;
+        height: 30px;
+    }
+}
