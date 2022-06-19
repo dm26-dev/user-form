@@ -89,6 +89,12 @@ export const UserForm = () => {
 
             <button hidden></button>
 
+            <br />
+            <br />
+            <pre>
+                {JSON.stringify(user, null, 3)}
+            </pre>
+
         </form>
     )
 }
